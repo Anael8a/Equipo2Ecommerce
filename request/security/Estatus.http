@@ -1,4 +1,4 @@
-@api = http://localhost:3050/security/api/v1/Estatus
+@api = http://localhost:3050/api/v1/security/Estatus
 #@api = http://187.229.22.99:8010/api/v1/Estatus
 
 ### GET

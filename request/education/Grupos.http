@@ -1,4 +1,4 @@
-@api = http://localhost:3050/education/api/v1/grupos
+@api = http://localhost:3050/api/v1/education/grupos
 
 ###GET LIST
 GET {{api}}

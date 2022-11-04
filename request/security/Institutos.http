@@ -1,4 +1,4 @@
-@api = http://localhost:3050/security/api/v1/institutos
+@api = http://localhost:3050/api/v1/security/institutos
 #@api = http://187.217.228.11:9096/api/v1/prod-serv
 
 ### GET ALL INSTITUTOS

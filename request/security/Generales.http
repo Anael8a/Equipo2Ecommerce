@@ -1,4 +1,4 @@
-@api = http://localhost:3050/security/api/v1/catgenerales
+@api = http://localhost:3050/api/v1/security/catgenerales
 
 ### GET ALL CAT_GENERALES
 GET {{api}}
