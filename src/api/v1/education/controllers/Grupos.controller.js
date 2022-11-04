@@ -1,7 +1,7 @@
 
 import * as GruposService from '../services/Grupos.service';
 import boom from '@hapi/boom';
-
+ 
 //JGZ: API GET 
 //---------------------------------------- 
 //JGZ: Todos los Grupos. 

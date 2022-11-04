@@ -1,5 +1,5 @@
 import Grupos from '../models/Grupos.model';
-import boom from '@hapi/boom';
+import boom from '@hapi/boom'; 
 
 //JGZ: GET LIST Grupos
 export const getGruposList = async () => {
@@ -41,7 +41,7 @@ export const postGruposItem = async (paGruposItem) => {
 		throw error; 
 	} 
 };
-
+ 
 //JGZ: PUT (UPDATE) Grupos Item. 
 export const putGruposItem = async (id, puGruposItem) => {
 	try {

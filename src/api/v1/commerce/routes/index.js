@@ -19,7 +19,7 @@ const routerAPIeCommerce = (app) => {
     router.use('/products', CatProductsRoutes);
     router.use('/inventories', InventoriesRoutes);  
     router.use('/prices-list', CatPricesListRoutes);
-    router.use('/orders', OrdersRoutes); 
+    router.use('/orders', OrdersRoutes);
 
     // Return Router 
     return router; 
