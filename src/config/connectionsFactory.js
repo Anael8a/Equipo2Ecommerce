@@ -6,6 +6,7 @@ import config from './config';
 /* const DB_USER = process.env.DB_USER || 'defaultUser';
 const DB_PASS = process.env.DB_PASS || 'defaultPass';
  */
+
 const options = {
   useNewUrlParser: true,
   //useCreateIndex: true,
