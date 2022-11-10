@@ -5,6 +5,7 @@ import CatProductsRoutes from './Products.route';
 import InventoriesRoutes from './Inventories.route';
 import CatPricesListRoutes from './PricesList.route';
 import OrdersRoutes from './Orders.route';
+import Almacenes from './Almacenes.route';
 
 const routerAPIeCommerce = (app) => { 
 
@@ -20,6 +21,7 @@ const routerAPIeCommerce = (app) => {
     router.use('/inventories', InventoriesRoutes);  
     router.use('/prices-list', CatPricesListRoutes);
     router.use('/orders', OrdersRoutes);
+    router.use('/almacenes',Almacenes); 
 
     // Return Router 
     return router; 
