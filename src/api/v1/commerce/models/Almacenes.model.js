@@ -9,24 +9,23 @@ const almacenesSchema = new mongoose.Schema({
     IdAlmacenOK         :{type : String},
     IdAlmacenBK         :{type : String},
     DesAlmacen          :{type : String},
-
-        almacenes_negocios    :[
+    almacenes_negocios    :[
                 {
-                    IdNegocioOk :{type : String},
-                    detail_row : {
-                        _id : false,
-                        Activo  : { type : String, default : 'S' },
-                        Borrado : { type : String, default : 'N' },
-                        detail_row_reg : [
-                            {
-                                _id : false,
-                                FechaReg    : { type : Date, default : Date.now() },
-                                UsuarioReg  : { type : String }
-                            }
-                        ]
-                    }
+                    IdNegocioOk :{type : String}
                 }
             ],
+    detail_row : {
+        _id : false,
+        Activo  : { type : String, default : 'S' },
+        Borrado : { type : String, default : 'N' },
+        detail_row_reg : [
+            {
+                _id : false,
+                FechaReg    : { type : Date, default : Date.now() },
+                UsuarioReg  : { type : String }
+            }
+        ]
+    }
 })    
 
 
