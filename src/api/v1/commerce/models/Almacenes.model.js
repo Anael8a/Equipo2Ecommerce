@@ -11,6 +11,7 @@ const almacenesSchema = new mongoose.Schema({
     DesAlmacen          :{type : String},
     almacenes_negocios    :[
                 {
+                    _id : false,
                     IdNegocioOk :{type : String}
                 }
             ],
