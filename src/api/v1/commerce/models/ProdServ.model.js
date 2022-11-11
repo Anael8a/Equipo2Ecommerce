@@ -11,6 +11,7 @@ const productsSchema = new mongoose.Schema({
     DesProdServ             :{ type : String },
     cat_prod_serv_info_ad : [
         {
+            _id: false,
             IdEtiqueta      :{ type : String },
             Etiqueta        :{ type : String },
             Valor           :{ type : String },
@@ -33,10 +34,12 @@ const productsSchema = new mongoose.Schema({
     ],
     cat_prod_serv_presenta : [
         {
+            _id: false,
             IdPresentaBK        :{ type : String },
             DesPresenta         :{ type : String },
             cat_prod_serv_presenta_estatus : [
                 {
+                    _id: false,
                     IdEstatusOK     :{ type : String },
                     Estatus         :{ type : String },
                     Actual          :{ type : String },
@@ -57,6 +60,7 @@ const productsSchema = new mongoose.Schema({
             ],
             cat_prod_serv_presenta_info_ad : [
                 {
+                    _id: false,
                     IdEtiqueta      :{ type : String },
                     Etiqueta        :{ type : String },
                     Valor           :{ type : String },
@@ -79,6 +83,7 @@ const productsSchema = new mongoose.Schema({
             ],
             cat_prod_serv_archivos : [
                 {
+                    _id: false,
                     IdArchivoBK         :{ type : String },
                     DesArchivo          :{ type : String },
                     RutaArchivo         :{ type : String },
@@ -104,6 +109,7 @@ const productsSchema = new mongoose.Schema({
             ],
             cat_prod_serv_paquetes : [
                 {
+                    _id: false,
                     IdPresentaBK        :{ type : String },
                     DesPresenta         :{ type : String },
                     Cantidad            :{ type : Number },
