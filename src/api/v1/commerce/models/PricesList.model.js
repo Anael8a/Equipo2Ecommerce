@@ -16,6 +16,7 @@ const pricesListSchema = new mongoose.Schema({
     cat_listas_presenta_precios :[
         {
             IdProdServOK :{ type : String },
+            IdPresentaBK :{ type : String },
             Precio       :{ type : Number },
             detail_row : {
                 _id : false,

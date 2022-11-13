@@ -64,9 +64,9 @@ const personasSchema = new mongoose.Schema({
     cat_personas_domicilios : [
         {
             IdDomicilioBK     : { type : String },
-            CalleNumero       : { type : String },
-            EntreCalle1       : { type : String },
-            EntreCalle2       : { type : String },
+            "Calle Numero"       : { type : String },
+            "Entre Calle 1"       : { type : String },
+            "Entre Calle 2"       : { type : String },
             Referencia        : { type : String },
             CodPostal         : { type : String },
             CoordenadasXY     : { type : String },
